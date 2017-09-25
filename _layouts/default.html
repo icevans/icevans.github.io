@@ -33,16 +33,13 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <h2>Testing</h2>
       <section id="main_content" class="inner">
         {{ content }}
         
         <ul>
-          {% for post in site.posts %}
           <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.baseurl }}{% post_url 2017-09-25-test-blog %}">Testing</a>
           </li>
-          {% endfor %}
         </ul>
       </section>
     </div>
