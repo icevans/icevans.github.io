@@ -6,7 +6,7 @@
         {% for post in site.posts %}
           <article class="blog-item">
             <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-            {{ post.date }}
+            {{ post.date | date: '%B %d, %Y' }}
             {{ post.excerpt }}
             {% endfor %}
           </article>
