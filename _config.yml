@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: Two Cookies
 description: From philosopher to programmer
+paginate: 5
