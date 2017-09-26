@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#project_title a {
+  color: inherit;
+}
+
+.blog-item__header time {
+  color: gray;
+  font-style: italic;
+}
+
+.blog-item__footer {
+  color: inherut;
+}
+
+.blog-item__footer a {
+  color: inherit;
+}

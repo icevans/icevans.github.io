@@ -1,0 +1,18 @@
+{% include header.html %}
+        <article class="blog-item">
+          <header class="blog-item__header">
+            <h1>{{ page.title }}</h1>
+            <time>{{ page.date | date: '%B %d, %Y' }}</time>
+          </header>
+          {{ content }}
+          <hr>
+          <footer class="blog-item__footer">
+            {% if page.previous %}
+            <a href="{{ page.previous.url }}">Prev</a>
+            {% endif %}
+            {% if page.next %}
+            <a href="{{ page.next.url }}">Next</a>
+            {% endif %}
+          </footer>
+        </article>
+{% include footer.html %}
