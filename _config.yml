@@ -2,3 +2,4 @@ theme: jekyll-theme-slate
 title: Two Cookies
 description: from philosopher to programmer
 include: ["index.html", "pages/"]
+paginate: 5
