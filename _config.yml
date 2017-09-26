@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
 title: Two Cookies
-description: From philosopher to programmer
-include: ["about.html", "index.html"]
+description: from philosopher to programmer
+include: ["index.html", "pages/"]
