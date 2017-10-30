@@ -1,17 +1,21 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* RESETS */
 
-#project_title a {
-  color: inherit;
-}
+@import "reset";
 
-#footer_wrap {
-  color: white;
-}
 
-footer p, 
-footer a {
-  color: inherit;
+
+
+
+
+
+
+
+/* GRID */
+
+body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
