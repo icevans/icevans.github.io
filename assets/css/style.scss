@@ -13,9 +13,102 @@
 
 
 
+/* BASE */
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* TYPOGRAPHY */
+@import url("https://use.typekit.net/ppq6qcw.css");
+
+
+
+
+
+
+
+
+
 /* GRID */
 
 body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 20px;
+}
+
+.primary-nav {
+  grid-column: 3/4;
+}
+
+.site-banner {
+  grid-column: 4 / 8;
+}
+
+main {
+  grid-column: 3 / 9;
+  grid-row: 2;
+}
+
+.blog-item {
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+
+.blog-item h1 {
+  grid-column: 2 / -1;
+}
+
+.blog-item time {
+  grid-column: 1;
+}
+
+.blog-item p {
+  margin: 0;
+  grid-column: 2 / -1;
+}
+
+.site-footer {
+  grid-column: 1 / -1;
+  grid-row: 3;
+}
+
+
+
+
+
+
+
+
+
+/* DECORATIONS */
+
+.main-menu {
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.site-footer {
+  border-bottom: 5px solid #FF4FFF;
+}
+
+body {
+  border-top: 1.5em solid black;
 }
