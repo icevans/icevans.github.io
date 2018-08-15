@@ -1,22 +1,10 @@
 ---
 layout: page
-titles:
-  en: About
-  zh: 关于
-  zh-Hans: 关于
-  zh-Hant: 關於
-key: page-about
+title: About
 ---
 
-Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
+Hello.
 
-{% highlight javascript %}
-(() => console.log('hello, world!'))();
-{% endhighlight %}
+This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
 
-## Skills
-
-- HTML5, CSS3(SASS), JavaScript(ES2017, Node.js), Bash(Zsh)
-- React, React Native, Vue.js
-- gulp, webpack
-- Adobe Photoshop, Sketch
+**Less is more..**
